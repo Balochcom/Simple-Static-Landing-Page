@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height:100%;
+    width: 100%;
+} 
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+#nav{
+    /*background-color: red;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+    position: fixed;
+    width: 100%;
+
+}
+#nav h3{
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+
+#intro{
+    height: 47%;
+    width: 100%;
+    /* background-color: rgb(194, 109, 109); */ 
+    padding: 30px;
+}
+
+#intro h1{
+    font-size: 100px;
+    line-height: 95px;
+    letter-spacing: -3px;
+}
+#place{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#place h3, #place h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#hero{
+    height: 90%;
+    width: 100%;
+    background-color: orange;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-1600.webp);
+    background-size: cover;
+}
+#about{
+   height: 85%;
+   width: 100%;
+   /* background-color: rgb(247, 220, 104); */
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 15px 60px;
+   border-bottom: 2px solid black;
+   
+}
+#about h2{
+    /* background-color: red; */
+    width: 60%;
+    font-size: 75px;
+    line-height: 75px;
+    
+}
+#about-part-two{
+    width: 30%;
+    height: 77%;
+    font-size: 22px;
+    padding: 9px 30px;
+   /* background-color: blue; */
+    border-left: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#icon i{
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    font-size: 21px;
+    padding: 11px;
+    margin: 5px;
+    border-radius: 50px;
+}
+#about-2{
+    margin: 30px;
+    display: flex;
+   /* background-color:rgba(131, 131, 219, 0.815);*/
+}
+
+#what{
+    /*background-color: yellow;*/
+    height: 450px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    border-right: 2px solid black;
+    padding: 40px;
+}
+#what i{
+    font-size: 35px;
+}
+#what h3{
+    font-size: 30px;
+    font-weight: 550;
+}
+#other{
+    width: 900px;
+    height: 450px;
+   /* background-color: aqua;*/
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ align-items: center;
+}
+#first-porshion{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    width: 800px;
+    border-bottom: 2px solid black;
+}
+
+#digital-design h2{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 60px;
+    
+}
+#art-direction{
+    border-left: 2px solid black;
+    padding-left: 50px;
+}
+#art-direction h2{ 
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+#second-porshion{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: rgba(211, 96, 96, 0.89); */
+    
+    height: 200px;
+    width: 800px;
+}
+
+#interaction-design h2{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 35px;
+}
+#motion-design{
+    border-left: 2px solid black; 
+    padding-left: 50px;
+}
+#motion-design h2{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 60px;
+}
